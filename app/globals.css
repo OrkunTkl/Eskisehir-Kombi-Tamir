@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "@fontsource-variable/anybody/wdth.css";
+@import "@fontsource-variable/hanken-grotesk/index.css";
+
+@theme {
+  --color-night: #060d22;
+  --color-navy: #0b1630;
+  --color-ice: #dce7f0;
+  --color-warm: #ffcfa3;
+  --color-flame: #2447ff;
+  --color-ember: #ff5b14;
+  --font-display: "Anybody Variable", "Arial Narrow", sans-serif;
+  --font-sans: "Hanken Grotesk Variable", system-ui, sans-serif;
+}
+:root { --header-h: 4.5rem; --bg: #dce7f0; }
+html { background: var(--bg); scroll-padding-top: var(--header-h); }
+body {
+  background: var(--bg);
+  color: var(--color-navy);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+h1, h2, h3 { text-wrap: balance; }
+
+/* Display type: Anybody, very condensed and heavy; opens up on hover. */
+.d {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-stretch: 58%;
+  line-height: .86;
+  letter-spacing: -.01em;
+}
+.d-hero { font-size: clamp(4.2rem, 21vw, 21rem); }
+.d-xl { font-size: clamp(3.4rem, 13vw, 13rem); }
+.d-lg { font-size: clamp(2.8rem, 9vw, 9rem); }
+.d-col { font-size: clamp(2.8rem, 5.6vw, 6.2rem); }
+.d-md { font-size: clamp(2.2rem, 6vw, 5.5rem); line-height: .92; }
+.stretch { transition: font-stretch .6s cubic-bezier(.2,.8,.2,1); }
+.group:hover .stretch, .group:focus-visible .stretch { font-stretch: 100%; }
+.lead { max-width: 34rem; font-size: clamp(1.1rem, 1.5vw, 1.35rem); line-height: 1.55; }
+.prose-x { max-width: 40rem; }
+
+:focus-visible { outline: 3px solid var(--color-flame); outline-offset: 3px; }
+::selection { background: var(--color-ember); color: #fff; }
+.skip { position: absolute; left: 1rem; top: -4rem; z-index: 100; border-radius: 9999px; background: var(--color-navy); color: #fff; padding: .6rem 1.1rem; font-size: .875rem; transition: top .2s; }
+.skip:focus { top: 1rem; }
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee { animation: marquee 38s linear infinite; }
+.outline-text { -webkit-text-stroke: 2px var(--color-navy); color: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  .marquee { animation: none; }
+  .stretch { transition: none; }
+}
