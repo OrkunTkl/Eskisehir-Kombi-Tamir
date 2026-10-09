@@ -20,7 +20,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       { h: "Belirtiyi not edin", p: "Hata kodunu, basınç değerini, sesin ne zaman geldiğini ve en son ne zaman düzgün çalıştığını yazın. Bu bilgiler telefonda bile ön tanı için işe yarar." },
       { h: "Güvenle kontrol edebilecekleriniz", p: "Basınç göstergesi, gaz vanasının açık olması, termostat ayarı ve pili, petek vanaları kullanıcının kontrol edebileceği şeylerdir. Kombinin kapağını açmayın, gaz bağlantılarına dokunmayın." },
       { h: "Ne zaman beklemeden usta çağırılır?", p: "Su sızıntısı, tekrarlayan hata kodu, ateşleme sırasında patlama sesi ya da yanık kokusu varsa kombiyi kapatın ve destek isteyin. Gaz kokusu varsa önce gaz kokusu rehberindeki güvenlik adımlarını uygulayın." },
-      { h: "Yönlendirme nasıl işler?", p: "Bu platform kombi hizmetini kendisi vermez ve herhangi bir markanın yetkili servisi değildir. Talebinizi telefon, WhatsApp veya form ile iletirsiniz; işin türüne ve ilçenize göre uygun bağımsız servis sağlayıcıyla görüşmenizi sağlarız." },
+      { h: "Yönlendirme nasıl işler?", p: "Bu platform kombi hizmetini kendisi vermez ve herhangi bir markanın yetkili servisi değildir. Talebinizi WhatsApp veya form ile iletirsiniz; işin türüne ve ilçenize göre uygun bağımsız servis sağlayıcıyla görüşmenizi sağlarız." },
     ],
     problems: ["kombi-isitmiyor", "kombi-ates-almiyor", "kombi-hata-kodu", "kombi-basinc-dusuyor"],
     services: ["kombi-bakim", "kombi-parca-degisimi"],

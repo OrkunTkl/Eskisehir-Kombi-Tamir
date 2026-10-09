@@ -2,8 +2,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Phone } from "lucide-react";
-import { telLink } from "@/lib/contact";
+// import { Phone } from "lucide-react"; // telefon gizlendi
+// import { telLink } from "@/lib/contact";
 import { TrackLink } from "@/components/TrackLink";
 
 const links = [
@@ -25,21 +25,33 @@ export function Header() {
         >
           Eskişehir Kombi
         </Link>
-        <nav aria-label="Ana menü" className="pointer-events-auto hidden gap-8 md:flex">
+        <nav
+          aria-label="Ana menü"
+          className="pointer-events-auto hidden gap-8 md:flex"
+        >
           {links.map(([h, l]) => (
-            <Link key={h} href={h} className="font-medium underline-offset-8 hover:underline">
+            <Link
+              key={h}
+              href={h}
+              className="font-medium underline-offset-8 hover:underline"
+            >
               {l}
             </Link>
           ))}
         </nav>
         <p aria-hidden className="mr-28 hidden w-32 text-right lg:block">
           <span className="text-xs opacity-80">Oda </span>
-          <span id="heat-out" className="d align-middle text-3xl" style={{ fontStretch: "80%" }}>
+          <span
+            id="heat-out"
+            className="d align-middle text-3xl"
+            style={{ fontStretch: "80%" }}
+          >
             9°
           </span>
         </p>
       </header>
       <div className="fixed right-5 top-0 z-50 flex h-[4.5rem] items-center gap-2 md:right-10 lg:right-14">
+        {/* Telefon ile arama gizlendi
         <TrackLink
           event="phone_click"
           href={telLink()}
@@ -47,6 +59,7 @@ export function Header() {
         >
           <Phone size={16} aria-hidden /> Ara
         </TrackLink>
+        */}
         <button
           type="button"
           aria-expanded={open}

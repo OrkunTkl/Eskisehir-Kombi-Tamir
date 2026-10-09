@@ -6,7 +6,7 @@ const steps = [
   [
     "1",
     "Anlatın",
-    "Telefonla arayın, WhatsApp'tan yazın ya da formu doldurun. Belirtiyi, ilçenizi ve markayı söylemeniz yeter.",
+    "WhatsApp'tan yazın ya da formu doldurun. Belirtiyi, ilçenizi ve markayı söylemeniz yeter.",
   ],
   [
     "2",

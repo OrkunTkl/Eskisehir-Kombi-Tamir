@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PHONE_DISPLAY } from "@/lib/contact";
+// import { PHONE_DISPLAY } from "@/lib/contact"; // telefon gizlendi
 import { services } from "@/data/services";
 import { Cta } from "@/components/Cta";
 
@@ -15,14 +15,19 @@ export function Footer() {
           <div className="mt-8">
             <Cta dark />
           </div>
+          {/* Telefon numarası gizlendi
           {PHONE_DISPLAY && <p className="mt-6 text-lg text-white/70">{PHONE_DISPLAY}</p>}
+          */}
         </div>
         <nav aria-label="Hizmetler">
           <p className="font-semibold text-white/50">Hizmetler</p>
           <ul className="mt-4 space-y-2">
             {services.map((s) => (
               <li key={s.slug}>
-                <Link className="text-white/85 hover:text-ember" href={`/${s.slug}`}>
+                <Link
+                  className="text-white/85 hover:text-ember"
+                  href={`/${s.slug}`}
+                >
                   {s.title}
                 </Link>
               </li>
@@ -48,10 +53,12 @@ export function Footer() {
           </ul>
         </nav>
       </div>
-      <p className="mt-16 max-w-3xl text-sm text-white/55">{TRANSPARENCY_TEXT}</p>
+      <p className="mt-16 max-w-3xl text-sm text-white/55">
+        {TRANSPARENCY_TEXT}
+      </p>
       <p className="mt-3 max-w-3xl text-sm text-white/55">
-        Gaz kokusu alırsanız cihazları kullanmayın, havalandırın, binadan çıkın ve 187 Doğalgaz Acil hattını
-        arayın. Yangın ya da rahatsızlık varsa 112.
+        Gaz kokusu alırsanız cihazları kullanmayın, havalandırın, binadan çıkın
+        ve 187 Doğalgaz Acil hattını arayın. Yangın ya da rahatsızlık varsa 112.
       </p>
       <p
         aria-hidden

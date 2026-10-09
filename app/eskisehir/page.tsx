@@ -38,10 +38,10 @@ export default function Page() {
         <section className="mb-12">
           <h2 className="d d-md">Nasıl çalışır?</h2>
           <p className="mt-4 text-lg text-navy/75">
-            Sorununuzu telefon, WhatsApp ya da formla iletirsiniz. Biz işin
-            türünü ve ilçeyi değerlendirir, uygun servis sağlayıcıya talebi
-            aktarırız; servis sağlayıcı sizi arar. Fiyat ve işin kapsamı hizmeti
-            verecek servis sağlayıcıyla netleşir.
+            Sorununuzu WhatsApp ya da formla iletirsiniz. Biz işin türünü ve
+            ilçeyi değerlendirir, uygun servis sağlayıcıya talebi aktarırız;
+            servis sağlayıcı sizi arar. Fiyat ve işin kapsamı hizmeti verecek
+            servis sağlayıcıyla netleşir.
           </p>
         </section>
         <section className="mb-12 border-t border-navy/20 pt-8">

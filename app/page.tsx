@@ -30,7 +30,9 @@ export default function Home() {
           <h2 id="hizmetler" className="d d-xl">
             Hizmetler
           </h2>
-          <p className="lead mt-6 mb-14 text-navy/70 md:mb-20">Hangi konuda desteğe ihtiyacınız var?</p>
+          <p className="lead mt-6 mb-14 text-navy/70 md:mb-20">
+            Hangi konuda desteğe ihtiyacınız var?
+          </p>
         </div>
         <ServiceList />
       </section>
