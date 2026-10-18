@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { SITE } from "./contact";
+// İçerik tarihleri: Article şeması ve sitemap buradan okur. Yayın günü sabit kalır.
+// Rehber/sayfa içeriğini ciddi biçimde genişlettiğinde CONTENT_UPDATED değerini o günün tarihiyle güncelle.
+export const CONTENT_PUBLISHED = "2026-10-17";
+export const CONTENT_UPDATED = "2026-10-17";
 export const SITE_NAME = "Eskişehir Kombi";
 export const OG_IMAGE = { url: "/og-default.png", width: 1200, height: 630, alt: "Eskişehir Kombi: kombi arıza rehberi ve servis yönlendirme" };
 type Opts = { canonical?: string; noindex?: boolean };
@@ -24,5 +28,7 @@ export const serviceSchema = (name: string, description: string, path: string) =
 });
 export const articleSchema = (headline: string, description: string, path: string) => ({
   "@context": "https://schema.org", "@type": "Article", headline, description, inLanguage: "tr-TR", mainEntityOfPage: `${SITE}${path}`,
+  datePublished: CONTENT_PUBLISHED,
+  dateModified: CONTENT_UPDATED,
   author: { "@type": "Organization", name: SITE_NAME, url: SITE }, publisher: { "@type": "Organization", name: SITE_NAME, url: SITE },
 });

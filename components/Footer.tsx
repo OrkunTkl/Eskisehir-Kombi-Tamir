@@ -41,6 +41,8 @@ export function Footer() {
               ["/ariza-merkezi", "Arıza merkezi"],
               ["/ariza-merkezi/kombi-gaz-kokusu", "Gaz kokusu rehberi"],
               ["/eskisehir", "Hizmet bölgesi"],
+              ["/hakkimizda", "Hakkımızda"],
+              ["/iletisim", "İletişim"],
               ["/yorumlar", "Deneyimler"],
               ["/gizlilik", "Aydınlatma metni"],
             ].map(([h, l]) => (
