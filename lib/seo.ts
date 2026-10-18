@@ -26,9 +26,9 @@ export const serviceSchema = (name: string, description: string, path: string) =
   "@context": "https://schema.org", "@type": "Service", name, serviceType: name, description, url: `${SITE}${path}`,
   areaServed: { "@type": "City", name: "Eskişehir" }, broker: { "@type": "Organization", name: SITE_NAME, url: SITE },
 });
-export const articleSchema = (headline: string, description: string, path: string) => ({
+export const articleSchema = (headline: string, description: string, path: string, d: { published?: string; modified?: string } = {}) => ({
   "@context": "https://schema.org", "@type": "Article", headline, description, inLanguage: "tr-TR", mainEntityOfPage: `${SITE}${path}`,
-  datePublished: CONTENT_PUBLISHED,
-  dateModified: CONTENT_UPDATED,
+  datePublished: d.published ?? CONTENT_PUBLISHED,
+  dateModified: d.modified ?? CONTENT_UPDATED,
   author: { "@type": "Organization", name: SITE_NAME, url: SITE }, publisher: { "@type": "Organization", name: SITE_NAME, url: SITE },
 });

@@ -39,6 +39,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2">
             {[
               ["/ariza-merkezi", "Arıza merkezi"],
+              ["/hata-kodlari", "Hata kodları"],
               ["/ariza-merkezi/kombi-gaz-kokusu", "Gaz kokusu rehberi"],
               ["/eskisehir", "Hizmet bölgesi"],
               ["/hakkimizda", "Hakkımızda"],

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { problems } from "@/data/problems";
+import { errorCodes } from "@/data/error-codes";
 import { services } from "@/data/services";
 import { Cta } from "@/components/Cta";
 import { JsonLd } from "@/components/JsonLd";
@@ -88,6 +89,23 @@ export default async function Page({ params }: Props) {
           elektrik bağlantılarına müdahale etmeyin. Markanıza özgü değerler için
           kullanma kılavuzuna bakın.
         </p>
+        {slug === "kombi-hata-kodu" && (
+          <section className="mt-16">
+            <h2 className="d d-md">Hata kodu rehberleri</h2>
+            <ul className="mt-5 space-y-2 text-lg">
+              {errorCodes.map((x) => (
+                <li key={x.slug}>
+                  <Link
+                    className="text-flame underline underline-offset-4"
+                    href={`/hata-kodlari/${x.slug}`}
+                  >
+                    {x.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
         <FaqSection items={p.faq} />
         <nav aria-label="İlgili sayfalar" className="mt-16">
           <h2 className="d d-md">İlgili sayfalar</h2>
