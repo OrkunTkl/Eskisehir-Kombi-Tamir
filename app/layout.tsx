@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { StickyCta } from "@/components/StickyCta";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { SmoothScroll } from "@/components/Lenis";
 import { Heat } from "@/components/Heat";
 import { JsonLd } from "@/components/JsonLd";
@@ -20,12 +20,19 @@ export const metadata: Metadata = {
   title: { default: "Eskişehir Kombi", template: "%s" },
   applicationName: SITE_NAME,
   robots: { index: true, follow: true },
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }
-    : undefined,
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
+    other: process.env.NEXT_PUBLIC_BING_VERIFICATION
+      ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }
+      : undefined,
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="tr">
       <body>
@@ -39,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
-        <StickyCta />
+        <WhatsAppFloat />
       </body>
     </html>
   );

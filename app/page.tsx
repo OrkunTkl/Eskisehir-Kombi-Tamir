@@ -6,6 +6,7 @@ import { ProblemPicker } from "@/components/ProblemPicker";
 import { Manometer } from "@/components/Manometer";
 import { Steps } from "@/components/Steps";
 import { ServiceList } from "@/components/ServiceList";
+import { ForumSection } from "@/components/ForumSection";
 import { CallbackSection } from "@/components/CallbackSection";
 
 export const metadata = meta(
@@ -36,6 +37,7 @@ export default function Home() {
         </div>
         <ServiceList />
       </section>
+      <ForumSection />
       <CallbackSection />
     </>
   );
