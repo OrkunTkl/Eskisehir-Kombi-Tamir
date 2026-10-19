@@ -7,7 +7,7 @@ import { errorCodes } from "@/data/error-codes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
-    "/", "/hizmetler", "/ariza-merkezi", "/forum", "/eskisehir", "/hakkimizda", "/iletisim",
+    "/", "/hizmetler", "/ariza-merkezi", "/forum", "/kombi-markalari", "/eskisehir", "/hakkimizda", "/iletisim",
     ...services.map((s) => `/${s.slug}`),
     ...problems.map((p) => `/ariza-merkezi/${p.slug}`),
   ];

@@ -40,6 +40,7 @@ export function Footer() {
             {[
               ["/ariza-merkezi", "Arıza merkezi"],
               ["/hata-kodlari", "Hata kodları"],
+              ["/kombi-markalari", "Kombi markaları"],
               ["/ariza-merkezi/kombi-gaz-kokusu", "Gaz kokusu rehberi"],
               ["/eskisehir", "Hizmet bölgesi"],
               ["/hakkimizda", "Hakkımızda"],
