@@ -3,6 +3,7 @@ import Link from "next/link";
 import { problems } from "@/data/problems";
 import { errorCodes } from "@/data/error-codes";
 import { services } from "@/data/services";
+import { problemDetails } from "@/data/problem-details";
 import { Cta } from "@/components/Cta";
 import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/Faq";
@@ -79,6 +80,15 @@ export default async function Page({ params }: Props) {
           )}
         />
         <List h="Olası nedenler" items={p.causes} />
+        {(problemDetails[p.slug] ?? []).map((d) => (
+          <section
+            key={d.h}
+            className="mb-12 border-t border-navy/20 pt-8 first:border-t-0 first:pt-0"
+          >
+            <h2 className="d d-md">{d.h}</h2>
+            <p className="mt-4 text-lg text-navy/75">{d.p}</p>
+          </section>
+        ))}
         <List
           h={urgent ? "Hemen yapın" : "Güvenle neler yapabilirsiniz?"}
           items={p.safe}
