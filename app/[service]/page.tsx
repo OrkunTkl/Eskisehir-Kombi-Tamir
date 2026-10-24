@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { services } from "@/data/services";
 import { problems } from "@/data/problems";
-import { serviceContent } from "@/data/seo-content";
+import { serviceContent as baseContent } from "@/data/seo-content";
+import { extraServiceContent } from "@/data/service-extra";
 import Link from "next/link";
 import { Cta } from "@/components/Cta";
 import { JsonLd } from "@/components/JsonLd";
@@ -9,6 +10,8 @@ import { FaqSection } from "@/components/Faq";
 import { Article } from "@/components/Article";
 import { CallbackSection } from "@/components/CallbackSection";
 import { meta, breadcrumb, serviceSchema } from "@/lib/seo";
+
+const serviceContent = { ...baseContent, ...extraServiceContent };
 
 export const dynamicParams = false;
 export const generateStaticParams = () =>

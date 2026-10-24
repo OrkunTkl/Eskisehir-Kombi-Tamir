@@ -10,8 +10,8 @@ import { ForumSection } from "@/components/ForumSection";
 import { CallbackSection } from "@/components/CallbackSection";
 
 export const metadata = meta(
-  "Eskişehir Kombi Tamiri | Kombi Arıza, Bakım ve Montaj",
-  "Eskişehir'de kombi arızası, bakım ve montaj için sorununuzu belirleyin, güvenli ilk adımları öğrenin ve uygun kombi ustasına ulaşın.",
+  "Eskişehir Kombi Servisi ve Tamiri | Arıza, Bakım, Montaj",
+  "Eskişehir'de kombi servisi arıyorsanız sorununuzu belirleyin, güvenli ilk adımları öğrenin ve WhatsApp'tan uygun kombi ustasına yönlendirilin.",
   "/",
 );
 
