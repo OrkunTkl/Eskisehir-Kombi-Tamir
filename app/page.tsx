@@ -11,7 +11,7 @@ import { CallbackSection } from "@/components/CallbackSection";
 
 export const metadata = meta(
   "Eskişehir Kombi Servisi ve Tamiri | Arıza, Bakım, Montaj",
-  "Eskişehir'de kombi servisi arıyorsanız sorununuzu belirleyin, güvenli ilk adımları öğrenin ve WhatsApp'tan uygun kombi ustasına yönlendirilin.",
+  "Eskişehir'de kombi arızası mı var? Sorununuzu seçin, güvenli ilk kontrolleri öğrenin, WhatsApp'tan tek mesajla uygun kombi ustasına yönlendirilin.",
   "/",
 );
 

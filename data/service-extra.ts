@@ -3,9 +3,9 @@ import type { ServiceContent } from "@/data/seo-content";
 // seo-content.ts'e dokunmadan eklenen hizmet sayfaları. [service]/page.tsx bunu birleştirir.
 export const extraServiceContent: Record<string, ServiceContent> = {
   "eskisehir-kombi-servisi": {
-    title: "Eskişehir Kombi Servisi | Servis Çağırmadan Önce Bilmeniz Gerekenler",
+    title: "Eskişehir Kombi Servisi | Çağırmadan Önce Bunlara Bakın",
     description:
-      "Eskişehir'de kombi servisi arıyorsanız: servis nasıl işler, yetkili ve bağımsız servis farkı, ustaya ne söylenmeli. WhatsApp'tan talebinizi iletin.",
+      "Eskişehir'de kombi servisi arıyorsanız: yetkili ve bağımsız servis farkı, ustaya ne söylenmeli, nelere dikkat edilmeli. WhatsApp'tan tek mesajla talep iletin.",
     h1: "Eskişehir kombi servisi: çağırmadan önce neleri bilmelisiniz?",
     lead: "Kombi servisi çağırmak çoğu zaman acil bir anda olur. Servis türünü, ustaya vereceğiniz bilgiyi ve gelişte neye dikkat edeceğinizi önceden bilmek hem zamandan hem paradan tasarruf ettirir.",
     sections: [

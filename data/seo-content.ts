@@ -12,9 +12,9 @@ export type ServiceContent = {
 const S = (x: ServiceContent) => x;
 export const serviceContent: Record<string, ServiceContent> = {
   "kombi-ariza": S({
-    title: "Eskişehir Kombi Arıza | Kombi Tamiri İçin Yönlendirme",
+    title: "Eskişehir Kombi Arıza ve Tamiri | İlk Kontroller",
     description:
-      "Kombi ısıtmıyor, ateş almıyor ya da hata veriyor mu? Önce güvenle kontrol edebilecekleriniz, sonra uygun kombi ustasına yönlendirme.",
+      "Kombi ısıtmıyor, ateş almıyor, hata veriyor mu? Ustayı aramadan önce güvenle yapabileceğiniz kontroller ve WhatsApp'tan kombi ustasına yönlendirme.",
     h1: "Kombi arızası: önce ne olduğunu anlayın, sonra ustayı çağırın",
     lead: "Kombi arızaları üç büyük başlığa ayrılır: ısıtma ve sıcak su devresi, gaz ve ateşleme, elektronik ve sensörler. Belirtiyi doğru tarif etmek, ustanın ilk gelişte işi bitirme ihtimalini yükseltir.",
     sections: [
@@ -57,9 +57,9 @@ export const serviceContent: Record<string, ServiceContent> = {
     ],
   }),
   "kombi-bakim": S({
-    title: "Eskişehir Kombi Bakımı | Yıllık Bakım Rehberi",
+    title: "Eskişehir Kombi Bakımı | Ne Zaman, Nasıl Yapılır?",
     description:
-      "Kombi bakımı ne zaman yapılır, neleri kapsar, neden önemlidir? Yıllık bakım için bilmeniz gerekenler ve ustaya ulaşma yolu.",
+      "Yıllık kombi bakımı ne zaman yapılır, neleri kapsar, ne kadar sürer? Kış başlamadan önce bilmeniz gerekenler ve WhatsApp'tan bakım talebi.",
     h1: "Kombi bakımı: yılda bir, sezondan önce",
     lead: "Düzenli bakım hem arıza ihtimalini düşürür hem de yanma verimini korur. Kış başlamadan önce yaptırmak, soğukta arıza yaşama ihtimalini azaltır.",
     sections: [
