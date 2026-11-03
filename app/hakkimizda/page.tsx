@@ -9,7 +9,7 @@ import { TRANSPARENCY_TEXT } from "@/components/Footer";
 
 export const metadata = meta(
   "Hakkımızda | Eskişehir Kombi Nasıl Çalışır?",
-  "Eskişehir Kombi, kombi sorunu yaşayanları anlaşmalı bağımsız servis sağlayıcılara yönlendiren bir bilgi platformudur. Ne yaptığımızı ve ne yapmadığımızı açıkça anlatıyoruz.",
+  "Eskişehir Kombi, kombi sorunu yaşayanları Eskişehir'deki kombi ustalarına yönlendiren bir platformdur. Nasıl çalıştığımızı açıkça anlatıyoruz.",
   "/hakkimizda",
 );
 
@@ -33,7 +33,7 @@ export default function Page() {
             <h1 className="d d-col">Eskişehir Kombi ne yapar?</h1>
             <p className="lead mt-6 text-navy/75">
               Kombi bozulduğunda önce ne olduğunu anlamanıza yardım eder,
-              gerekiyorsa talebinizi uygun bağımsız servis sağlayıcıya iletiriz.
+              gerekiyorsa sizi uygun ustaya yönlendiririz.
             </p>
             <div className="mt-8">
               <Cta />
@@ -63,9 +63,8 @@ export default function Page() {
           </p>
           <p className="mt-4 text-lg text-navy/75">
             İkincisi, usta gerektiğinde talebinizi WhatsApp&apos;tan alıp
-            ilçenize ve işin türüne göre uygun bağımsız servis sağlayıcıya
-            aktarıyoruz. Servis sağlayıcı sizi arar, işin kapsamını ve fiyatı
-            onunla konuşursunuz.
+            ilçenize ve işin türüne göre sizi uygun ustaya yönlendiriyoruz. Usta
+            sizi arar, işin kapsamını ve fiyatı onunla konuşursunuz.
           </p>
         </section>
 

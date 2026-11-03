@@ -20,8 +20,8 @@ export default function Page() {
             <h1 className="d d-col">Eskişehir&apos;de kombi desteği</h1>
             <p className="lead mt-6 text-navy/75">
               Kombi arızası, bakım ya da montaj için tek bir yerden talep
-              iletin. İlçenize ve işin türüne göre uygun bağımsız servis
-              sağlayıcıyla görüşmenizi sağlarız.
+              iletin. Sizi ilçenize ve işin türüne göre uygun ustaya
+              yönlendiririz.
             </p>
             <div className="mt-8">
               <Cta />
@@ -40,7 +40,7 @@ export default function Page() {
           <p className="mt-4 text-lg text-navy/75">
             Sorununuzu WhatsApp ya da formla iletirsiniz. Biz işin türünü ve
             ilçeyi değerlendirir, sizi uygun ustaya yönlendiririz; usta sizi
-            arar. Fiyat ve işin kapsamı hizmeti verecek servis sağlayıcıyla
+            arar. Fiyat ve işin kapsamı arızayı gördükten sonra usta ile
             netleşir.
           </p>
         </section>

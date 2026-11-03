@@ -34,7 +34,7 @@ export default function Page() {
             <h1 className="d d-col">Bize ulaşın</h1>
             <p className="lead mt-6 text-navy/75">
               Talepleri WhatsApp&apos;tan alıyoruz. Sorununuzu ve ilçenizi
-              yazın, uygun servis sağlayıcıya iletelim.
+              yazın, sizi uygun kombi ustasına yönlendirelim.
             </p>
             <div className="mt-8">
               <Cta />
@@ -74,9 +74,9 @@ export default function Page() {
         <section className="mb-12 border-t border-navy/20 pt-8">
           <h2 className="d d-md">Sonrasında ne olur?</h2>
           <p className="mt-4 text-lg text-navy/75">
-            Talebinizi ilçenize ve işin türüne göre uygun bağımsız servis
-            sağlayıcıya aktarırız. Servis sağlayıcı sizinle iletişime geçer.
-            Fiyat ve işin kapsamı, hizmeti verecek servis sağlayıcıyla netleşir.
+            Sizi ilçenize ve işin türüne göre uygun ustaya yönlendiririz. Usta
+            sizi arar. Fiyat ve işin kapsamı, arızayı gördükten sonra usta ile
+            netleşir.
           </p>
         </section>
 

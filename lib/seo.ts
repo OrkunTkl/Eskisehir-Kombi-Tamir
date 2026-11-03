@@ -18,7 +18,7 @@ export const meta = (title: string, description: string, path: string, o: Opts =
 };
 export const breadcrumb = (items: [string, string][]) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map(([name, p], i) => ({ "@type": "ListItem", position: i + 1, name, item: `${SITE}${p}` })) });
 // Platform aracıdır: Organization kullanılır, LocalBusiness kullanılmaz.
-export const organization = { "@context": "https://schema.org", "@type": "Organization", name: "Eskişehir Kombi", url: SITE, description: "Eskişehir'de kombi hizmeti arayanları anlaşmalı servis sağlayıcılara yönlendiren bilgi platformu." };
+export const organization = { "@context": "https://schema.org", "@type": "Organization", name: "Eskişehir Kombi", url: SITE, description: "Eskişehir'de kombi hizmeti arayanları kombi ustasına yönlendiren platform." };
 
 export const website = { "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, url: SITE, inLanguage: "tr-TR" };
 // Platform aracıdır: hizmeti veren taraf "provider" olarak değil, yönlendiren "broker" olarak işaretlenir. Adres/telefon yok.

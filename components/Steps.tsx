@@ -10,13 +10,13 @@ const steps = [
   ],
   [
     "2",
-    "Biz eşleştirelim",
-    "İşin türüne ve ilçenize göre uygun bağımsız servis sağlayıcıyı belirler, adresi ve talebi ona iletiriz.",
+    "Biz yönlendirelim",
+    "İşin türüne ve ilçenize göre uygun ustayı belirler, adresi ve talebi ona iletiriz.",
   ],
   [
     "3",
     "Usta sizi arasın",
-    "Servis sağlayıcı sizinle iletişime geçer, ne zaman gelebileceğini söyler. Fiyat ve kapsam onunla netleşir.",
+    "Usta sizi arar, ne zaman gelebileceğini söyler. Fiyat ve kapsam onunla netleşir.",
   ],
 ] as const;
 
