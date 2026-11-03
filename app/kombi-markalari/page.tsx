@@ -20,7 +20,7 @@ export const metadata = meta(
 const faq: Faq[] = [
   {
     q: "Yetkili servis ile bağımsız servis arasındaki fark nedir?",
-    a: "Yetkili servis, kombi üreticisinin kendi adına hizmet vermesi için görevlendirdiği servistir; garanti işlemlerini o yürütür. Bağımsız servis üreticiden bağımsız çalışan bir işletmedir. Bu platform yetkili servis değildir; talebinizi bağımsız servis sağlayıcılara yönlendirir.",
+    a: "Yetkili servis, kombi üreticisinin kendi adına hizmet vermesi için görevlendirdiği servistir; garanti işlemlerini o yürütür. Bağımsız servis üreticiden bağımsız çalışan bir işletmedir. Biz usta yönlendiriyoruz; talebinizi bağımsız servis ustalarına iletiriz.",
   },
   {
     q: "Kombim garantideyse önce kime başvurmalıyım?",
@@ -51,8 +51,8 @@ export default function Page() {
             <h1 className="d d-col">Kombi markaları</h1>
             <p className="lead mt-6 text-navy/75">
               Eskişehir&apos;de kombiniz arıza verdiğinde markanıza göre ne
-              yapmanız gerektiğini kısaca anlatıyoruz. Bu platform hiçbir
-              markanın yetkili servisi değildir.
+              yapmanız gerektiğini kısaca anlatıyoruz. Sorun sürerse sizi kombi
+              ustasına yönlendirelim.
             </p>
             <div className="mt-8">
               <Cta problem="Kombi markası ile ilgili destek" />
@@ -127,11 +127,8 @@ export default function Page() {
         </section>
 
         <p className="text-sm text-navy/60">
-          Marka adları yalnızca bilgi vermek için kullanılmıştır. Bu platform
-          anılan markalarla bağlantılı değildir ve hiçbir markanın yetkili
-          servisi değildir. Gaz kokusu alırsanız cihazı kullanmayın,
-          havalandırın, binadan çıkın ve 187 Doğalgaz Acil hattını arayın;
-          yangın ya da rahatsızlık varsa 112.
+          Marka adları yalnızca bilgi vermek için kullanılmıştır. Gaz kokusu
+          alırsanız cihazı kullanmayın, binadan çıkın ve 187&apos;yi arayın.
         </p>
 
         <FaqSection items={faq} />

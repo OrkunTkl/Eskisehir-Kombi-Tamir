@@ -33,6 +33,6 @@ export const forum: Faq[] = [
   },
   {
     q: "Eskişehir'de kombi ustası nasıl bulunur ve fiyat nasıl belirlenir?",
-    a: "Sorununuzu WhatsApp'tan yazarsınız; talebi ilçenize ve işin türüne göre uygun bağımsız servis sağlayıcıya aktarırız ve servis sağlayıcı sizi arar. Fiyatı ve işin kapsamını usta arızayı gördükten sonra sizinle netleştirir. Platform hizmeti kendisi vermez ve hiçbir markanın yetkili servisi değildir.",
+    a: "Sorununuzu WhatsApp'tan yazarsınız; talebi ilçenize ve işin türüne göre uygun bağımsız servis sağlayıcıya aktarırız ve servis sağlayıcı sizi arar. Fiyatı ve işin kapsamını usta arızayı gördükten sonra sizinle netleştirir. Biz usta yönlendiriyoruz; işi usta yapar.",
   },
 ];

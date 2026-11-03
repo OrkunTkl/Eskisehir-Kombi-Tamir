@@ -39,9 +39,9 @@ export default function Page() {
           <h2 className="d d-md">Nasıl çalışır?</h2>
           <p className="mt-4 text-lg text-navy/75">
             Sorununuzu WhatsApp ya da formla iletirsiniz. Biz işin türünü ve
-            ilçeyi değerlendirir, uygun servis sağlayıcıya talebi aktarırız;
-            servis sağlayıcı sizi arar. Fiyat ve işin kapsamı hizmeti verecek
-            servis sağlayıcıyla netleşir.
+            ilçeyi değerlendirir, sizi uygun ustaya yönlendiririz; usta sizi
+            arar. Fiyat ve işin kapsamı hizmeti verecek servis sağlayıcıyla
+            netleşir.
           </p>
         </section>
         <section className="mb-12 border-t border-navy/20 pt-8">

@@ -70,12 +70,10 @@ export default function Page() {
         </section>
 
         <section className="mb-12 border-t border-navy/20 pt-8">
-          <h2 className="d d-md">Ne yapmıyoruz?</h2>
+          <h2 className="d d-md">Fiyatı kim belirler?</h2>
           <p className="mt-4 text-lg text-navy/75">
-            Kombiyi kendimiz tamir etmiyoruz, montaj ya da bakım yapmıyoruz.
-            Hiçbir kombi markasının yetkili servisi değiliz ve markalarla resmi
-            bir bağımız yok. Fiyatı ve işin kapsamını hizmeti verecek servis
-            sağlayıcı belirler.
+            Biz usta yönlendiriyoruz. Fiyatı ve işin kapsamını, arızayı
+            gördükten sonra usta sizinle netleştirir.
           </p>
         </section>
 

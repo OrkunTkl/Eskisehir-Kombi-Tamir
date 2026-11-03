@@ -44,7 +44,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         h: "Yönlendirme nasıl işler?",
-        p: "Bu platform kombi hizmetini kendisi vermez ve herhangi bir markanın yetkili servisi değildir. Talebinizi WhatsApp veya form ile iletirsiniz; işin türüne ve ilçenize göre uygun bağımsız servis sağlayıcıyla görüşmenizi sağlarız.",
+        p: "Biz usta yönlendiriyoruz. Talebinizi WhatsApp veya form ile iletirsiniz; işin türüne ve ilçenize göre sizi uygun ustaya yönlendiririz, usta sizi arar.",
       },
     ],
     problems: ["kombi-isitmiyor", "kombi-ates-almiyor", "kombi-hata-kodu", "kombi-basinc-dusuyor"],

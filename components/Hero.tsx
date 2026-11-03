@@ -39,8 +39,9 @@ export function Hero() {
         className="relative mt-10 grid gap-6 md:grid-cols-[1fr_auto] md:items-end"
       >
         <p className="lead text-white/90">
-          Eskişehir&apos;de kombi arızası, bakım ve montaj için sorununuzu bir kez anlatın. Uygun ustayı biz bulalım,
-          o sizi arasın.
+          Eskişehir&apos;de kombi arızası, bakım ve montaj için sorununuzu bir
+          kez yazın. Sizi Eskişehir&apos;deki kombi ustasına yönlendirelim, usta
+          sizi arasın.
         </p>
         <Cta dark />
       </motion.div>

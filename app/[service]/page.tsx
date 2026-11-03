@@ -46,9 +46,8 @@ export default async function Page({ params }: Props) {
               <Cta problem={s.title} />
             </div>
             <p className="mt-8 max-w-xl text-sm text-navy/60">
-              Bu platform kombi hizmetini kendisi vermez ve herhangi bir
-              markanın yetkili servisi değildir; talebinizi uygun bağımsız
-              servis sağlayıcıya yönlendirir.
+              Talebinizi bırakın, sizi ilçenize uygun kombi ustasına
+              yönlendirelim. Usta sizi arasın.
             </p>
           </>
         }

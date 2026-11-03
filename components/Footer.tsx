@@ -4,7 +4,7 @@ import { services } from "@/data/services";
 import { Cta } from "@/components/Cta";
 
 export const TRANSPARENCY_TEXT =
-  "Eskişehir Kombi, kombi hizmeti arayanları anlaşmalı bağımsız servis sağlayıcılarla buluşturan bir yönlendirme platformudur. Hizmeti yönlendirilen servis sağlayıcı verir. Platform herhangi bir kombi markasının yetkili servisi değildir.";
+  "Eskişehir Kombi, Eskişehir'de kombisi bozulanları ilçesine ve işin türüne uygun ustaya yönlendirir. Talebinizi bırakırsınız, usta sizi arar.";
 
 export function Footer() {
   return (
@@ -61,8 +61,8 @@ export function Footer() {
         {TRANSPARENCY_TEXT}
       </p>
       <p className="mt-3 max-w-3xl text-sm text-white/55">
-        Gaz kokusu alırsanız cihazları kullanmayın, havalandırın, binadan çıkın
-        ve 187 Doğalgaz Acil hattını arayın. Yangın ya da rahatsızlık varsa 112.
+        Gaz kokusu alırsanız cihazı kullanmayın, binadan çıkın ve 187&apos;yi
+        arayın.
       </p>
       <p
         aria-hidden

@@ -51,8 +51,7 @@ export default function Page() {
         </section>
       ))}
       <p className="mt-10 max-w-2xl px-5 text-sm text-navy/60 md:px-10 lg:px-14">
-        Bu platform hiçbir kombi markasının yetkili servisi değildir. Listede
-        olmayan bir kod görüyorsanız{" "}
+        Listede olmayan bir kod görüyorsanız{" "}
         <Link
           className="text-flame underline underline-offset-4"
           href="/ariza-merkezi/kombi-hata-kodu"

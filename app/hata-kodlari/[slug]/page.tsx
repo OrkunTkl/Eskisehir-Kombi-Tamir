@@ -97,9 +97,8 @@ export default async function Page({ params }: Props) {
         <p className="text-sm text-navy/60">
           Hata kodlarının anlamı kombinin modeline ve üretim yılına göre
           değişebilir; kombinizin kullanma kılavuzu esastır. Kombinin kapağını
-          açmayın, gaz ve elektrik bağlantılarına müdahale etmeyin. Bu platform{" "}
-          {e.brand} ile bağlantılı değildir ve hiçbir markanın yetkili servisi
-          değildir; sayfa genel bilgi amaçlıdır.
+          açmayın, gaz ve elektrik bağlantılarına müdahale etmeyin. Sayfa genel
+          bilgi amaçlıdır; arıza sürüyorsa sizi kombi ustasına yönlendirelim.
         </p>
         <FaqSection items={e.faq} />
         <nav aria-label="İlgili sayfalar" className="mt-16">

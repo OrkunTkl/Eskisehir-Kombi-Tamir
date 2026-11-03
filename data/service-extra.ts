@@ -19,7 +19,7 @@ export const extraServiceContent: Record<string, ServiceContent> = {
       },
       {
         h: "Bu platform nasıl çalışır?",
-        p: "Bu site kombi hizmetini kendisi vermez ve herhangi bir markanın yetkili servisi değildir. Sorununuzu WhatsApp ya da form ile iletirsiniz; işin türüne ve ilçenize göre uygun bağımsız servis sağlayıcıyla görüşmenizi sağlarız. Fiyat ve işin kapsamı, hizmeti verecek servis sağlayıcıyla belirlenir.",
+        p: "Biz usta yönlendiriyoruz. Sorununuzu WhatsApp ya da form ile iletirsiniz; işin türüne ve ilçenize göre sizi uygun ustaya yönlendiririz, usta sizi arar. Fiyat ve işin kapsamı, arızayı gördükten sonra usta ile netleşir.",
       },
       {
         h: "Servis çağırmadan önce hazırlanın",
@@ -50,8 +50,8 @@ export const extraServiceContent: Record<string, ServiceContent> = {
         a: "Garanti kapsamındaki arızalarda genellikle önce markanın yetkili servisine ya da müşteri hattına başvurmak gerekir. Garanti bittiyse bağımsız servis de seçebilirsiniz.",
       },
       {
-        q: "Bu site yetkili servis mi?",
-        a: "Hayır. Bu platform kombi hizmetini kendisi vermez; talebinizi uygun bağımsız servis sağlayıcıya yönlendirir.",
+        q: "Bu site ne yapıyor?",
+        a: "Kombi ustasına yönlendirme yapıyoruz. Talebinizi iletirsiniz, uygun usta sizi arar.",
       },
       {
         q: "Servis ücreti nasıl belirlenir?",
